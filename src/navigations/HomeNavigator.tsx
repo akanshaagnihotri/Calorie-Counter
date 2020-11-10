@@ -1,14 +1,16 @@
 import * as React from 'react';
-import { createStackNavigator } from '@react-navigation/stack';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import HomePage from '@scenes/HomePage/index';
+import UploadImage from '@scenes/UploadImage/index';
 
-const Stack = createStackNavigator();
+const Tab = createBottomTabNavigator();
 
 const HomeNavigator = () => (
-  <Stack.Navigator>
-    <Stack.Screen name={HomePage.routeName} component={HomePage} />
-  </Stack.Navigator>
+  <Tab.Navigator>
+    <Tab.Screen name={HomePage.routeName} component={HomePage} />
+    <Tab.Screen name={UploadImage.routeName} component={UploadImage} />
+  </Tab.Navigator>
 );
 
 export default HomeNavigator;
