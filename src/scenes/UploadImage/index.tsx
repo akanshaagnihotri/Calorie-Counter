@@ -1,13 +1,16 @@
 import * as React from 'react';
-import { StatusBar, Image, StyleSheet, Platform } from 'react-native';
+import { StatusBar, Image, StyleSheet, Platform, Dimensions } from 'react-native';
+import CalorieDetails from './CalorieDetails';
 
-import { UserContext, UserProviderInterface } from '@context/UserContext';
 import { Button } from '@styleguide/components/Button';
-import ImagePicker from 'react-native-image-picker';
-
-import { SafeAreaView, ScrollView, Text } from '@styleguide/components/index';
+import ImagePicker from 'react-native-image-crop-picker';
+import { ScannedContext } from '@context/ScannedContext';
+import { SafeAreaView, ScrollView, Text, LottieAnimation } from '@styleguide/components/index';
 import styled from 'styled-components/native';
 import NutritionDetails from '../../content/NutritionDetails';
+import * as UploadAnimation from './upload.json';
+
+const deviceWidth = Dimensions.get('window').width;
 
 const StyledText = styled(Text)`
   font-size: 32px;
@@ -19,10 +22,11 @@ const InnerContainer = styled.View`
   padding: 30px;
 `;
 
-const options = {
-  title: 'Select Image',
-  storageOptions: { skipBackup: true, path: 'images', cameraRoll: true, waitUntilSaved: true },
-};
+const CenteredStyledView = styled.View`
+  flex: 1;
+  align-items: center;
+  margin: 30px 0;
+`;
 
 const styles = StyleSheet.create({
   container: {
@@ -38,53 +42,66 @@ const styles = StyleSheet.create({
   },
 });
 
+const getNutritionDetails = (selectedImage) => {
+  return NutritionDetails.find(
+    (dish) => selectedImage.filename.toUpperCase() === dish.image.toUpperCase()
+  );
+};
+
 const UploadImage = () => {
-  const { signOut, user }: UserProviderInterface = React.useContext(UserContext);
-
-  const [image, setImage] = React.useState('');
-
-  const showNutritionDetails = () => {
-    const details = NutritionDetails.filter((dish) => dish.name === 'lasagna');
-    console.log(details);
-  };
+  const [image, setImage] = React.useState({});
+  const { addScannedItem } = React.useContext(ScannedContext);
 
   const openImagePicker = () => {
-    ImagePicker.launchImageLibrary(options, (response) => {
-      console.log(response);
-      if (response.didCancel) {
-        console.log('User cancelled image picker');
-      } else if (response.error) {
-        console.log('ImagePicker Error: ', response.error);
-      } else if (response.customButton) {
-        console.log('User tapped custom button: ', response.customButton);
-      } else {
-        const fileName = response.uri.substring(response.uri.indexOf('/Documents'));
-
-        console.log(fileName.split('/').pop());
-        setImage(response.uri);
-        showNutritionDetails();
+    ImagePicker.openPicker({}).then((image) => {
+      setImage(image);
+      const details = image.filename ? getNutritionDetails(image) : {};
+      if (details.name) {
+        addScannedItem(details);
       }
     });
   };
 
-  const src = image
-    ? {
-        uri: image,
-      }
-    : {};
+  const src =
+    image && image.path
+      ? {
+          uri: image.path,
+        }
+      : {};
 
-  console.log(src);
+  const details = image.filename ? getNutritionDetails(image) : {};
+
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView contentInsetAdjustmentBehavior="automatic">
           <InnerContainer>
-            <StyledText>Look for the caloriesss in your food </StyledText>
-            <Button onPress={() => openImagePicker()} color="darkPurple" textColor="white">
-              Upload
-            </Button>
-            <Image style={{ width: '100%', height: '100%' }} source={src} />
+            {image.path && details ? (
+              <>
+                <CalorieDetails details={details} image={src} />
+                <Button onPress={() => openImagePicker()} color="red" textColor="white">
+                  Try Another Dish
+                </Button>
+              </>
+            ) : (
+              <>
+                <StyledText>Look for the calories in your food </StyledText>
+                <CenteredStyledView>
+                  <LottieAnimation
+                    style={{
+                      width: deviceWidth * 0.8,
+                      height: deviceWidth * 0.8,
+                    }}
+                    loop
+                    source={UploadAnimation}
+                  />
+                </CenteredStyledView>
+                <Button onPress={() => openImagePicker()} color="red" textColor="white">
+                  Upload
+                </Button>
+              </>
+            )}
           </InnerContainer>
         </ScrollView>
       </SafeAreaView>
@@ -92,6 +109,6 @@ const UploadImage = () => {
   );
 };
 
-UploadImage.routeName = 'UploadImage';
+UploadImage.routeName = 'Scan';
 
 export default UploadImage;

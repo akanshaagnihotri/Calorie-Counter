@@ -4,6 +4,7 @@ import Navigator from '@navigations/index';
 import UserProvider from '@context/UserContext';
 
 const App = () => {
+  console.disableYellowBox = true;
   return (
     <UserProvider>
       <Navigator />

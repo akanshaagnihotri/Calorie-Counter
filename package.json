@@ -8,7 +8,10 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "tsm": "tsm src"
+    "tsm": "tsm src",
+    "get-device-id": "xcrun simctl list 'devices' 'booted'",
+    "add-media": "xcrun simctl addmedia booted ./src/assets/foods/*.png ./src/assets/foods/*.jpg",
+    "open-local": "open ~/Library/Developer/CoreSimulator/Devices/345E755A-7100-4682-B782-C8314DBE96EB/data/Media/DCIM/100APPLE  -a Finder"
   },
   "dependencies": {
     "@react-native-community/google-signin": "^4.0.0",
@@ -30,11 +33,13 @@
     "react-native-config": "^1.0.0",
     "react-native-fix-image": "^2.0.1",
     "react-native-gesture-handler": "^1.6.1",
+    "react-native-image-crop-picker": "^0.35.1",
     "react-native-image-picker": "^2.3.4",
     "react-native-reanimated": "^1.7.1",
     "react-native-safe-area-context": "^0.7.3",
     "react-native-screens": "^2.4.0",
     "react-native-svg": "^12.1.0",
+    "react-native-vector-icons": "^7.1.0",
     "styled-components": "^5.1.0",
     "yup": "^0.28.5"
   },

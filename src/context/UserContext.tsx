@@ -57,10 +57,6 @@ const UserProvider = ({ children }: { children: React.ReactNode }) => {
   const [user, setUser] = useState<User | null>(null);
 
   const onAuthStateChanged = (userDataFromAuth: UserDataFromAuth | null) => {
-    if (userDataFromAuth && !userDataFromAuth.emailVerified) {
-      return;
-    }
-
     console.log('In AuthStateChanged', userDataFromAuth);
     setAuthData(userDataFromAuth);
 
@@ -72,9 +68,6 @@ const UserProvider = ({ children }: { children: React.ReactNode }) => {
   useEffect(() => {
     if (!authData) {
       return setUser(null);
-    }
-    if (authData && !authData.emailVerified) {
-      return signOut();
     }
 
     const { uid } = authData;
