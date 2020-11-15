@@ -1,7 +1,8 @@
 const NutritionDetails = [
   {
-    image: require('../assets/lasagna.jpg'),
-    name: 'lasagna',
+    image: 'IMG_0019.JPG',
+    storedImage: require('../assets/foods/lasagna.jpg'),
+    name: 'Lasagna',
     ingredients: [
       '1/2 lb dry lasagna noodles (requires 9 lasagna noodles - unbroken)',
       '15 ounces Ricotta cheese',
@@ -26,10 +27,87 @@ const NutritionDetails = [
     sodiumPercent: '69%',
     totalCarbohydratePercent: '131%',
     fiberPercent: '97%',
+    nutrition: [
+      {
+        label: 'Total Calories',
+        value: '3322 KCal',
+      },
+      {
+        label: 'Total Fat',
+        value: '170 gms',
+      },
+      {
+        label: 'Saturated Fat',
+        value: '106 gms',
+      },
+      {
+        label: 'Cholestrol',
+        value: '724 mg',
+      },
+      {
+        label: 'Sodium',
+        value: '5796 mg',
+      },
+      {
+        label: 'Total Carbohydrates',
+        value: '169.5 gms',
+      },
+      {
+        label: 'Total Sugars',
+        value: '9 gms',
+      },
+      {
+        label: 'Dietary Fiber',
+        value: '0 gm',
+      },
+      {
+        label: 'Protein',
+        value: '276.4 gms',
+      },
+      {
+        label: 'Calcium',
+        value: '7490 mg',
+      },
+      {
+        label: 'Iron',
+        value: '3 mg',
+      },
+      {
+        label: 'Potassium',
+        value: '1103 mg',
+      },
+    ],
+    dailyPercentage: [
+      {
+        label: 'Total Fats',
+        value: '172%',
+      },
+      {
+        label: 'Saturated Fats',
+        value: '186%',
+      },
+      {
+        label: 'Cholestrol',
+        value: '96%',
+      },
+      {
+        label: 'Sodium',
+        value: '69%',
+      },
+      {
+        label: 'Carbohydrates',
+        value: '131%',
+      },
+      {
+        label: 'Fiber',
+        value: '0%',
+      },
+    ],
   },
   {
-    image: require('../assets/lasagna.jpg'),
-    name: 'vegetable burger',
+    image: 'IMG_0021.PNG',
+    storedImage: require('../assets/foods/burger.png'),
+    name: 'Vegetable Burger',
     ingredients: [
       '1/2 onion',
       '2 slices cheese slices',
@@ -58,10 +136,87 @@ const NutritionDetails = [
     sodiumPercent: '43%',
     totalCarbohydratePercent: '38%',
     fiberPercent: '51%',
+    dailyPercentage: [
+      {
+        label: 'Total Fats',
+        value: '27%',
+      },
+      {
+        label: 'Saturated Fats',
+        value: '60%',
+      },
+      {
+        label: 'Cholestrol',
+        value: '20%',
+      },
+      {
+        label: 'Sodium',
+        value: '43%',
+      },
+      {
+        label: 'Carbohydrates',
+        value: '38%',
+      },
+      {
+        label: 'Fiber',
+        value: '51%',
+      },
+    ],
+    nutrition: [
+      {
+        label: 'Total Calories',
+        value: '730 KCal',
+      },
+      {
+        label: 'Total Fat',
+        value: '21.4 gms',
+      },
+      {
+        label: 'Saturated Fat',
+        value: '11.9 gms',
+      },
+      {
+        label: 'Cholestrol',
+        value: '59 mg',
+      },
+      {
+        label: 'Sodium',
+        value: '992 mg',
+      },
+      {
+        label: 'Total Carbohydrates',
+        value: '105.6 gms',
+      },
+      {
+        label: 'Total Sugars',
+        value: '17.6 gms',
+      },
+      {
+        label: 'Dietary Fiber',
+        value: '14.2 gm',
+      },
+      {
+        label: 'Protein',
+        value: '34.3 gms',
+      },
+      {
+        label: 'Calcium',
+        value: '461 mg',
+      },
+      {
+        label: 'Iron',
+        value: '7 mg',
+      },
+      {
+        label: 'Potassium',
+        value: '301 mg',
+      },
+    ],
   },
   {
-    image: require('../assets/lasagna.jpg'),
-    name: 'Arrabiata pasta',
+    image: 'IMG_0022.PNG',
+    name: 'Arrabiata Pasta',
+    storedImage: require('../assets/foods/arabiataPasta.png'),
     ingredients: [
       '1/2 teaspoon oregano',
       '4 large tomato',
@@ -87,10 +242,87 @@ const NutritionDetails = [
     sodiumPercent: '2%',
     totalCarbohydratePercent: '37%',
     fiberPercent: '33%',
+    dailyPercentage: [
+      {
+        label: 'Total Fats',
+        value: '6%',
+      },
+      {
+        label: 'Saturated Fats',
+        value: '3%',
+      },
+      {
+        label: 'Cholestrol',
+        value: '31%',
+      },
+      {
+        label: 'Sodium',
+        value: '2%',
+      },
+      {
+        label: 'Carbohydrates',
+        value: '37%',
+      },
+      {
+        label: 'Fiber',
+        value: '33%',
+      },
+    ],
+    nutrition: [
+      {
+        label: 'Total Calories',
+        value: '515 KCal',
+      },
+      {
+        label: 'Total Fat',
+        value: '4.6 gms',
+      },
+      {
+        label: 'Saturated Fat',
+        value: '0.7 gms',
+      },
+      {
+        label: 'Cholestrol',
+        value: '94 mg',
+      },
+      {
+        label: 'Sodium',
+        value: '54 mg',
+      },
+      {
+        label: 'Total Carbohydrates',
+        value: '101.8 gms',
+      },
+      {
+        label: 'Total Sugars',
+        value: '19.3 gms',
+      },
+      {
+        label: 'Dietary Fiber',
+        value: '9.2 gm',
+      },
+      {
+        label: 'Protein',
+        value: '21.6 gms',
+      },
+      {
+        label: 'Calcium',
+        value: '115 mg',
+      },
+      {
+        label: 'Iron',
+        value: '6 mg',
+      },
+      {
+        label: 'Potassium',
+        value: '1835 mg',
+      },
+    ],
   },
   {
-    image: require('../assets/lasagna.jpg'),
-    name: 'Homemade pizza',
+    image: 'IMG_0020.PNG',
+    storedImage: require('../assets/foods/pizza.png'),
+    name: 'Homemade Pizza',
     ingredients: [
       'low fat mozzarella cheese',
       '2 tablespoon pizza sauce',
@@ -121,6 +353,82 @@ const NutritionDetails = [
     sodiumPercent: '27%',
     totalCarbohydratePercent: '146%',
     fiberPercent: '73%',
+    dailyPercentage: [
+      {
+        label: 'Total Fats',
+        value: '23%',
+      },
+      {
+        label: 'Saturated Fats',
+        value: '33%',
+      },
+      {
+        label: 'Cholestrol',
+        value: '12%',
+      },
+      {
+        label: 'Sodium',
+        value: '27%',
+      },
+      {
+        label: 'Carbohydrates',
+        value: '146%',
+      },
+      {
+        label: 'Fiber',
+        value: '73%',
+      },
+    ],
+    nutrition: [
+      {
+        label: 'Total Calories',
+        value: '2113 KCal',
+      },
+      {
+        label: 'Total Fat',
+        value: '18 gms',
+      },
+      {
+        label: 'Saturated Fat',
+        value: '6.7 gms',
+      },
+      {
+        label: 'Cholestrol',
+        value: '36 mg',
+      },
+      {
+        label: 'Sodium',
+        value: '630 mg',
+      },
+      {
+        label: 'Total Carbohydrates',
+        value: '402.5 gms',
+      },
+      {
+        label: 'Total Sugars',
+        value: '10.3 gms',
+      },
+      {
+        label: 'Dietary Fiber',
+        value: '20.5 gm',
+      },
+      {
+        label: 'Protein',
+        value: '74.8 gms',
+      },
+      {
+        label: 'Calcium',
+        value: '555 mg',
+      },
+      {
+        label: 'Iron',
+        value: '28 mg',
+      },
+      {
+        label: 'Potassium',
+        value: '1415 mg',
+      },
+    ],
   },
 ];
 
