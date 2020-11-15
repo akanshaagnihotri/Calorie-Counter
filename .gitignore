@@ -56,11 +56,7 @@ buck-out/
 *.jsbundle
 
 # Firebase Keys
-ios/GoogleService-Info.plist
-google-services.json
-
 # Environments
-.env
 .env.production
 
 # CocoaPods
