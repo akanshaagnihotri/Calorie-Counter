@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.pure_k_studios.pomodoro">
+  package="com.caloriecounter">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

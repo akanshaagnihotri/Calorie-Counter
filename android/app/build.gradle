@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.pure_k_studios.pomodoro"
+        applicationId "com.caloriecounter"
         multiDexEnabled true
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion

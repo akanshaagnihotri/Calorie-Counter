@@ -135,6 +135,7 @@ const Login = ({ navigation }: any) => {
             onChangeText={handleChange('email') as TextInputProps['onChangeText']}
           />
           <Input
+            secureTextEntry
             label="Enter Your Password"
             placeholder="Password"
             value={password}

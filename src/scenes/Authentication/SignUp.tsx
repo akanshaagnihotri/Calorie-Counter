@@ -137,6 +137,7 @@ const SignUp = () => {
                 onChangeText={handleChange('email') as TextInputProps['onChangeText']}
               />
               <Input
+                secureTextEntry
                 placeholder="Password"
                 label="Enter Your Password"
                 isInvalid={!!errors.password}

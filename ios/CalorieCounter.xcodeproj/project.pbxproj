@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* PomoDoroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PomoDoroTests.m */; };
+		00E356F31AD99517003FC87E /* CalorieCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CalorieCounterTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -15,11 +15,11 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* PomoDoroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PomoDoroTests.m */; };
-		42106E5B48067253BF21E98E /* libPods-PomoDoro-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FCE521C0BF68CDF3335CC5 /* libPods-PomoDoro-tvOS.a */; };
-		4BE903B05AF9802754BFDCAF /* libPods-PomoDoro-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B93E27AED90F744C98F22092 /* libPods-PomoDoro-tvOSTests.a */; };
-		53DA57032ACF02BC0D23906E /* libPods-PomoDoro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6AC93B3968E8F09B982596 /* libPods-PomoDoro.a */; };
-		794B0E634172CDBC15FA4A3C /* libPods-PomoDoro-PomoDoroTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 114A7D69DE9BDD7E04F861C3 /* libPods-PomoDoro-PomoDoroTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* CalorieCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CalorieCounterTests.m */; };
+		42106E5B48067253BF21E98E /* libPods-CalorieCounter-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FCE521C0BF68CDF3335CC5 /* libPods-CalorieCounter-tvOS.a */; };
+		4BE903B05AF9802754BFDCAF /* libPods-CalorieCounter-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B93E27AED90F744C98F22092 /* libPods-CalorieCounter-tvOSTests.a */; };
+		53DA57032ACF02BC0D23906E /* libPods-CalorieCounter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6AC93B3968E8F09B982596 /* libPods-CalorieCounter.a */; };
+		794B0E634172CDBC15FA4A3C /* libPods-CalorieCounter-CalorieCounterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 114A7D69DE9BDD7E04F861C3 /* libPods-CalorieCounter-CalorieCounterTests.a */; };
 		ED45B97D2438B7AD00A16E17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED45B97C2438B7AD00A16E17 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -29,43 +29,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = PomoDoro;
+			remoteInfo = CalorieCounter;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "PomoDoro-tvOS";
+			remoteInfo = "CalorieCounter-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* PomoDoroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomoDoroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* CalorieCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalorieCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* PomoDoroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PomoDoroTests.m; sourceTree = "<group>"; };
-		0B6AC93B3968E8F09B982596 /* libPods-PomoDoro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PomoDoro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		114A7D69DE9BDD7E04F861C3 /* libPods-PomoDoro-PomoDoroTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PomoDoro-PomoDoroTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* PomoDoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomoDoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PomoDoro/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PomoDoro/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* CalorieCounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalorieCounterTests.m; sourceTree = "<group>"; };
+		0B6AC93B3968E8F09B982596 /* libPods-CalorieCounter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalorieCounter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		114A7D69DE9BDD7E04F861C3 /* libPods-CalorieCounter-CalorieCounterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalorieCounter-CalorieCounterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* CalorieCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalorieCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CalorieCounter/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = CalorieCounter/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PomoDoro/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PomoDoro/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PomoDoro/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* PomoDoro-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PomoDoro-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* PomoDoro-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PomoDoro-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		32FCE521C0BF68CDF3335CC5 /* libPods-PomoDoro-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PomoDoro-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F0884049FBDCB60D28B4A4C /* Pods-PomoDoro-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomoDoro-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-PomoDoro-tvOSTests/Pods-PomoDoro-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		B729DBEF6D9E6C7B292D3C4F /* Pods-PomoDoro-PomoDoroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomoDoro-PomoDoroTests.debug.xcconfig"; path = "Target Support Files/Pods-PomoDoro-PomoDoroTests/Pods-PomoDoro-PomoDoroTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B93E27AED90F744C98F22092 /* libPods-PomoDoro-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PomoDoro-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C268B873D44497A3A6E30087 /* Pods-PomoDoro-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomoDoro-tvOS.release.xcconfig"; path = "Target Support Files/Pods-PomoDoro-tvOS/Pods-PomoDoro-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		D90D30B6F889588231FA141F /* Pods-PomoDoro-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomoDoro-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-PomoDoro-tvOS/Pods-PomoDoro-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		DEB6CD81A99A489AD9D2994D /* Pods-PomoDoro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomoDoro.release.xcconfig"; path = "Target Support Files/Pods-PomoDoro/Pods-PomoDoro.release.xcconfig"; sourceTree = "<group>"; };
-		E5799F6E5BF5D3F007E74585 /* Pods-PomoDoro-PomoDoroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomoDoro-PomoDoroTests.release.xcconfig"; path = "Target Support Files/Pods-PomoDoro-PomoDoroTests/Pods-PomoDoro-PomoDoroTests.release.xcconfig"; sourceTree = "<group>"; };
-		EA26018819FFEAF8520A5691 /* Pods-PomoDoro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomoDoro.debug.xcconfig"; path = "Target Support Files/Pods-PomoDoro/Pods-PomoDoro.debug.xcconfig"; sourceTree = "<group>"; };
-		ECB547AE3CB1D2E107A0D5EE /* Pods-PomoDoro-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PomoDoro-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-PomoDoro-tvOSTests/Pods-PomoDoro-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CalorieCounter/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CalorieCounter/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CalorieCounter/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* CalorieCounter-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CalorieCounter-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* CalorieCounter-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CalorieCounter-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FCE521C0BF68CDF3335CC5 /* libPods-CalorieCounter-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalorieCounter-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F0884049FBDCB60D28B4A4C /* Pods-CalorieCounter-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalorieCounter-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-CalorieCounter-tvOSTests/Pods-CalorieCounter-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		B729DBEF6D9E6C7B292D3C4F /* Pods-CalorieCounter-CalorieCounterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalorieCounter-CalorieCounterTests.debug.xcconfig"; path = "Target Support Files/Pods-CalorieCounter-CalorieCounterTests/Pods-CalorieCounter-CalorieCounterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B93E27AED90F744C98F22092 /* libPods-CalorieCounter-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalorieCounter-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C268B873D44497A3A6E30087 /* Pods-CalorieCounter-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalorieCounter-tvOS.release.xcconfig"; path = "Target Support Files/Pods-CalorieCounter-tvOS/Pods-CalorieCounter-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		D90D30B6F889588231FA141F /* Pods-CalorieCounter-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalorieCounter-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-CalorieCounter-tvOS/Pods-CalorieCounter-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		DEB6CD81A99A489AD9D2994D /* Pods-CalorieCounter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalorieCounter.release.xcconfig"; path = "Target Support Files/Pods-CalorieCounter/Pods-CalorieCounter.release.xcconfig"; sourceTree = "<group>"; };
+		E5799F6E5BF5D3F007E74585 /* Pods-CalorieCounter-CalorieCounterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalorieCounter-CalorieCounterTests.release.xcconfig"; path = "Target Support Files/Pods-CalorieCounter-CalorieCounterTests/Pods-CalorieCounter-CalorieCounterTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA26018819FFEAF8520A5691 /* Pods-CalorieCounter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalorieCounter.debug.xcconfig"; path = "Target Support Files/Pods-CalorieCounter/Pods-CalorieCounter.debug.xcconfig"; sourceTree = "<group>"; };
+		ECB547AE3CB1D2E107A0D5EE /* Pods-CalorieCounter-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalorieCounter-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-CalorieCounter-tvOSTests/Pods-CalorieCounter-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		ED45B97C2438B7AD00A16E17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				794B0E634172CDBC15FA4A3C /* libPods-PomoDoro-PomoDoroTests.a in Frameworks */,
+				794B0E634172CDBC15FA4A3C /* libPods-CalorieCounter-CalorieCounterTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53DA57032ACF02BC0D23906E /* libPods-PomoDoro.a in Frameworks */,
+				53DA57032ACF02BC0D23906E /* libPods-CalorieCounter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42106E5B48067253BF21E98E /* libPods-PomoDoro-tvOS.a in Frameworks */,
+				42106E5B48067253BF21E98E /* libPods-CalorieCounter-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,20 +100,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BE903B05AF9802754BFDCAF /* libPods-PomoDoro-tvOSTests.a in Frameworks */,
+				4BE903B05AF9802754BFDCAF /* libPods-CalorieCounter-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* PomoDoroTests */ = {
+		00E356EF1AD99517003FC87E /* CalorieCounterTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* PomoDoroTests.m */,
+				00E356F21AD99517003FC87E /* CalorieCounterTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = PomoDoroTests;
+			path = CalorieCounterTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -124,7 +124,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* PomoDoro */ = {
+		13B07FAE1A68108700A75B9A /* CalorieCounter */ = {
 			isa = PBXGroup;
 			children = (
 				ED45B97C2438B7AD00A16E17 /* GoogleService-Info.plist */,
@@ -136,7 +136,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = PomoDoro;
+			name = CalorieCounter;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -144,10 +144,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				0B6AC93B3968E8F09B982596 /* libPods-PomoDoro.a */,
-				114A7D69DE9BDD7E04F861C3 /* libPods-PomoDoro-PomoDoroTests.a */,
-				32FCE521C0BF68CDF3335CC5 /* libPods-PomoDoro-tvOS.a */,
-				B93E27AED90F744C98F22092 /* libPods-PomoDoro-tvOSTests.a */,
+				0B6AC93B3968E8F09B982596 /* libPods-CalorieCounter.a */,
+				114A7D69DE9BDD7E04F861C3 /* libPods-CalorieCounter-CalorieCounterTests.a */,
+				32FCE521C0BF68CDF3335CC5 /* libPods-CalorieCounter-tvOS.a */,
+				B93E27AED90F744C98F22092 /* libPods-CalorieCounter-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -162,9 +162,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* PomoDoro */,
+				13B07FAE1A68108700A75B9A /* CalorieCounter */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* PomoDoroTests */,
+				00E356EF1AD99517003FC87E /* CalorieCounterTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				F21FC645D5481924D22A80E1 /* Pods */,
@@ -178,10 +178,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* PomoDoro.app */,
-				00E356EE1AD99517003FC87E /* PomoDoroTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* PomoDoro-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* PomoDoro-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* CalorieCounter.app */,
+				00E356EE1AD99517003FC87E /* CalorieCounterTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* CalorieCounter-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* CalorieCounter-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,14 +197,14 @@
 		F21FC645D5481924D22A80E1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EA26018819FFEAF8520A5691 /* Pods-PomoDoro.debug.xcconfig */,
-				DEB6CD81A99A489AD9D2994D /* Pods-PomoDoro.release.xcconfig */,
-				B729DBEF6D9E6C7B292D3C4F /* Pods-PomoDoro-PomoDoroTests.debug.xcconfig */,
-				E5799F6E5BF5D3F007E74585 /* Pods-PomoDoro-PomoDoroTests.release.xcconfig */,
-				D90D30B6F889588231FA141F /* Pods-PomoDoro-tvOS.debug.xcconfig */,
-				C268B873D44497A3A6E30087 /* Pods-PomoDoro-tvOS.release.xcconfig */,
-				ECB547AE3CB1D2E107A0D5EE /* Pods-PomoDoro-tvOSTests.debug.xcconfig */,
-				5F0884049FBDCB60D28B4A4C /* Pods-PomoDoro-tvOSTests.release.xcconfig */,
+				EA26018819FFEAF8520A5691 /* Pods-CalorieCounter.debug.xcconfig */,
+				DEB6CD81A99A489AD9D2994D /* Pods-CalorieCounter.release.xcconfig */,
+				B729DBEF6D9E6C7B292D3C4F /* Pods-CalorieCounter-CalorieCounterTests.debug.xcconfig */,
+				E5799F6E5BF5D3F007E74585 /* Pods-CalorieCounter-CalorieCounterTests.release.xcconfig */,
+				D90D30B6F889588231FA141F /* Pods-CalorieCounter-tvOS.debug.xcconfig */,
+				C268B873D44497A3A6E30087 /* Pods-CalorieCounter-tvOS.release.xcconfig */,
+				ECB547AE3CB1D2E107A0D5EE /* Pods-CalorieCounter-tvOSTests.debug.xcconfig */,
+				5F0884049FBDCB60D28B4A4C /* Pods-CalorieCounter-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -212,9 +212,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* PomoDoroTests */ = {
+		00E356ED1AD99517003FC87E /* CalorieCounterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PomoDoroTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CalorieCounterTests" */;
 			buildPhases = (
 				6B3EDF8E430C73DE732920BC /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -227,14 +227,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = PomoDoroTests;
-			productName = PomoDoroTests;
-			productReference = 00E356EE1AD99517003FC87E /* PomoDoroTests.xctest */;
+			name = CalorieCounterTests;
+			productName = CalorieCounterTests;
+			productReference = 00E356EE1AD99517003FC87E /* CalorieCounterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* PomoDoro */ = {
+		13B07F861A680F5B00A75B9A /* CalorieCounter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PomoDoro" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CalorieCounter" */;
 			buildPhases = (
 				ED0874B9F5E8B5E907B4CE81 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -249,14 +249,14 @@
 			);
 			dependencies = (
 			);
-			name = PomoDoro;
-			productName = PomoDoro;
-			productReference = 13B07F961A680F5B00A75B9A /* PomoDoro.app */;
+			name = CalorieCounter;
+			productName = CalorieCounter;
+			productReference = 13B07F961A680F5B00A75B9A /* CalorieCounter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* PomoDoro-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* CalorieCounter-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PomoDoro-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CalorieCounter-tvOS" */;
 			buildPhases = (
 				2BE398DEAE1C3DE094F7FD42 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -269,14 +269,14 @@
 			);
 			dependencies = (
 			);
-			name = "PomoDoro-tvOS";
-			productName = "PomoDoro-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* PomoDoro-tvOS.app */;
+			name = "CalorieCounter-tvOS";
+			productName = "CalorieCounter-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* CalorieCounter-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* PomoDoro-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* CalorieCounter-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PomoDoro-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CalorieCounter-tvOSTests" */;
 			buildPhases = (
 				B7212222B52FE311A28FD2DB /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -288,9 +288,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "PomoDoro-tvOSTests";
-			productName = "PomoDoro-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* PomoDoro-tvOSTests.xctest */;
+			name = "CalorieCounter-tvOSTests";
+			productName = "CalorieCounter-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* CalorieCounter-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -320,7 +320,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PomoDoro" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CalorieCounter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -333,10 +333,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* PomoDoro */,
-				00E356ED1AD99517003FC87E /* PomoDoroTests */,
-				2D02E47A1E0B4A5D006451C7 /* PomoDoro-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* PomoDoro-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* CalorieCounter */,
+				00E356ED1AD99517003FC87E /* CalorieCounterTests */,
+				2D02E47A1E0B4A5D006451C7 /* CalorieCounter-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* CalorieCounter-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -406,7 +406,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PomoDoro-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CalorieCounter-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -433,7 +433,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PomoDoro-PomoDoroTests/Pods-PomoDoro-PomoDoroTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-CalorieCounter-CalorieCounterTests/Pods-CalorieCounter-CalorieCounterTests-resources.sh",
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/QBImagePicker.bundle",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
@@ -480,7 +480,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PomoDoro-PomoDoroTests/Pods-PomoDoro-PomoDoroTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CalorieCounter-CalorieCounterTests/Pods-CalorieCounter-CalorieCounterTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6B3EDF8E430C73DE732920BC /* [CP] Check Pods Manifest.lock */ = {
@@ -498,7 +498,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PomoDoro-PomoDoroTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CalorieCounter-CalorieCounterTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -520,7 +520,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PomoDoro-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CalorieCounter-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -533,7 +533,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PomoDoro/Pods-PomoDoro-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-CalorieCounter/Pods-CalorieCounter-resources.sh",
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/QBImagePicker.bundle",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
@@ -580,7 +580,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PomoDoro/Pods-PomoDoro-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CalorieCounter/Pods-CalorieCounter-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E9E25D2621149C1062B7E145 /* [CP-User] [RNFB] Core Configuration */ = {
@@ -608,7 +608,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PomoDoro-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CalorieCounter-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -660,7 +660,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* PomoDoroTests.m in Sources */,
+				00E356F31AD99517003FC87E /* CalorieCounterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,7 +686,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* PomoDoroTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* CalorieCounterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -695,12 +695,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* PomoDoro */;
+			target = 13B07F861A680F5B00A75B9A /* CalorieCounter */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* PomoDoro-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* CalorieCounter-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -712,7 +712,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = PomoDoro;
+			path = CalorieCounter;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -720,14 +720,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B729DBEF6D9E6C7B292D3C4F /* Pods-PomoDoro-PomoDoroTests.debug.xcconfig */;
+			baseConfigurationReference = B729DBEF6D9E6C7B292D3C4F /* Pods-CalorieCounter-CalorieCounterTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = PomoDoroTests/Info.plist;
+				INFOPLIST_FILE = CalorieCounterTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -737,17 +737,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PomoDoro.app/PomoDoro";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalorieCounter.app/CalorieCounter";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5799F6E5BF5D3F007E74585 /* Pods-PomoDoro-PomoDoroTests.release.xcconfig */;
+			baseConfigurationReference = E5799F6E5BF5D3F007E74585 /* Pods-CalorieCounter-CalorieCounterTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = PomoDoroTests/Info.plist;
+				INFOPLIST_FILE = CalorieCounterTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -757,13 +757,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PomoDoro.app/PomoDoro";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalorieCounter.app/CalorieCounter";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA26018819FFEAF8520A5691 /* Pods-PomoDoro.debug.xcconfig */;
+			baseConfigurationReference = EA26018819FFEAF8520A5691 /* Pods-CalorieCounter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -774,15 +774,15 @@
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
-				INFOPLIST_FILE = PomoDoro/Info.plist;
+				INFOPLIST_FILE = CalorieCounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.Pure-k-Studios.PomoDoro";
-				PRODUCT_NAME = PomoDoro;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.Pure-k-Studios.CalorieCounter";
+				PRODUCT_NAME = CalorieCounter;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -792,21 +792,21 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEB6CD81A99A489AD9D2994D /* Pods-PomoDoro.release.xcconfig */;
+			baseConfigurationReference = DEB6CD81A99A489AD9D2994D /* Pods-CalorieCounter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JRLPKA8MXD;
-				INFOPLIST_FILE = PomoDoro/Info.plist;
+				INFOPLIST_FILE = CalorieCounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.Pure-k-Studios.PomoDoro";
-				PRODUCT_NAME = PomoDoro;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.Pure-k-Studios.CalorieCounter";
+				PRODUCT_NAME = CalorieCounter;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -815,7 +815,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D90D30B6F889588231FA141F /* Pods-PomoDoro-tvOS.debug.xcconfig */;
+			baseConfigurationReference = D90D30B6F889588231FA141F /* Pods-CalorieCounter-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -826,14 +826,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "PomoDoro-tvOS/Info.plist";
+				INFOPLIST_FILE = "CalorieCounter-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.PomoDoro-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.CalorieCounter-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -843,7 +843,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C268B873D44497A3A6E30087 /* Pods-PomoDoro-tvOS.release.xcconfig */;
+			baseConfigurationReference = C268B873D44497A3A6E30087 /* Pods-CalorieCounter-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -854,14 +854,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "PomoDoro-tvOS/Info.plist";
+				INFOPLIST_FILE = "CalorieCounter-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.PomoDoro-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.CalorieCounter-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -871,7 +871,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECB547AE3CB1D2E107A0D5EE /* Pods-PomoDoro-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = ECB547AE3CB1D2E107A0D5EE /* Pods-CalorieCounter-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -881,24 +881,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "PomoDoro-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "CalorieCounter-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.PomoDoro-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.CalorieCounter-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PomoDoro-tvOS.app/PomoDoro-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalorieCounter-tvOS.app/CalorieCounter-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F0884049FBDCB60D28B4A4C /* Pods-PomoDoro-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 5F0884049FBDCB60D28B4A4C /* Pods-CalorieCounter-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -908,17 +908,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "PomoDoro-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "CalorieCounter-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.PomoDoro-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.CalorieCounter-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PomoDoro-tvOS.app/PomoDoro-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalorieCounter-tvOS.app/CalorieCounter-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -1039,7 +1039,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PomoDoroTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CalorieCounterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1048,7 +1048,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PomoDoro" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CalorieCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1057,7 +1057,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PomoDoro-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CalorieCounter-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1066,7 +1066,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PomoDoro-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CalorieCounter-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1075,7 +1075,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PomoDoro" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CalorieCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
