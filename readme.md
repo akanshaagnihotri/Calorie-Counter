@@ -4,9 +4,7 @@ The application can identify the visually detectable ingredients in the food and
 ## Setup
 1. Clone the repository
 2. In the root, run `yarn install`
-3. Open ios project in XCode and Update the url-schema as mentioned <a href="https://developers.google.com/identity/sign-in/ios/start-integrating#add_a_url_scheme_to_your_project">here</a>
-4. `cd ios && pod install`
-5. `cd .. && yarn run ios`
+3. `cd ios && pod install`
+4. `cd .. && yarn run ios`
 
-![Application GIF](./src/assets/application.gif)
-
+<img src="./src/assets/application.gif" width="40%">
